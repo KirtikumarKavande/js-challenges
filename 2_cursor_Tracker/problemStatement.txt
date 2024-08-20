@@ -1,0 +1,8 @@
+Custom Cursor:
+
+The cursor should follow the user's mouse movements in real-time, positioning itself exactly where the cursor is located.
+The cursor should randomly change its background color with each movement. A predefined array of colors should be used to select the background color.
+Square Drawing on Click:
+
+When the user clicks anywhere on the page, a square should be drawn at the exact position of the click.
+The square should have a fixed size (e.g., 50px by 50px) and a solid color (e.g., black).

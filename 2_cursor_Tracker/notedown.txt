@@ -1,0 +1,12 @@
+absolute:elements gets removed from its normal document flow and adjust itself 
+according to nearest portioned element
+relative:elements do not  remove from its normal document flow
+-here in this example
+-for relative
+left:30px
+move 30px from the position where i clicked
+-for absolute
+here it will align itself from html doc so left and right is from  html doc
+-clientX==>position of mouse from left
+-clientY==>position of mouse from top
+
