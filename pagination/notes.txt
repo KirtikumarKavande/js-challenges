@@ -1,0 +1,8 @@
+let {scrollTop,clientHeight,scrollHeight}= document.documentElement
+1)scrollHeight-->how much we scrolled
+2)clientHeight-->now actual height of screen it could be small if we open developer tool
+3)scrollHeight-->upto what height our content is available
+let {scrollTop,clientHeight,scrollHeight}= document.documentElement
+    if(clientHeight+scrollTop>=scrollHeight){
+    fetchData(10)
+    }
