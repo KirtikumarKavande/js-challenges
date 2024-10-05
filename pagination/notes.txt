@@ -1,8 +1,3 @@
-let {scrollTop,clientHeight,scrollHeight}= document.documentElement
-1)scrollHeight-->how much we scrolled
-2)clientHeight-->now actual height of screen it could be small if we open developer tool
-3)scrollHeight-->upto what height our content is available
-let {scrollTop,clientHeight,scrollHeight}= document.documentElement
-    if(clientHeight+scrollTop>=scrollHeight){
-    fetchData(10)
-    }
+-create dynamic array with content like this    
+    let data = Array(200).fill(0).map((_, i) => `Item ${i + 1}`);
+-use slice method for pagination
