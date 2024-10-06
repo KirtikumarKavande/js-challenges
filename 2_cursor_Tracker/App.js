@@ -12,8 +12,17 @@ const colors = [
     '#99FF99',
     '#B34D4D',
 ];
+let throttle = true
 document.addEventListener('mousemove', (event) => {
-    moveCursor(event.clientX, event.clientY)
+    if (throttle) {
+        throttle = false
+        moveCursor(event.clientX, event.clientY)
+
+        setTimeout(() => {
+            throttle = true
+        }, 2000)
+    }
+
 
 })
 document.addEventListener('click', (event) => {
