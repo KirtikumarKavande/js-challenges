@@ -1,2 +1,3 @@
 callback is best method to take value like setState()
 check in code how beautifully we transferred value from one position to another position
+-see how we cleaning already running timer making use of closure
