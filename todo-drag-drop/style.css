@@ -1,0 +1,9 @@
+#container{
+    display: flex;
+    margin-top: 10px;
+}
+#todo,#pending,#done{
+    width: 33%;
+    border: 1px solid red;
+    min-height: 100vh;
+}
